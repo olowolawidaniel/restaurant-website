@@ -10,7 +10,8 @@ section {
 }
 
 body {
-    background-color: rgb(244, 234, 234);
+    /* background-color: rgb(244, 234, 234); */
+    background-color: red;
 }
 
 a {
@@ -661,5 +662,16 @@ footer p {
 
     .footer-heads {
         font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .first-image-text {
+        font-size: 10px;
+        width: 210px;
+    }
+
+    .second-reserve button {
+        font-size: 12px;
     }
 }
