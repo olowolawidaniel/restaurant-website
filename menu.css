@@ -1,0 +1,451 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(244, 234, 234);
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-header {
+    background-color: rgb(231, 222, 222);
+    padding: 15px;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+}
+
+.announcement-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.announcement-container-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.bella-logo img{
+    width: 150px;
+    height: 40px;
+}
+
+.bella-kitchen-button {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.announcement-container-right{
+    display: flex;
+    align-self: center;
+    gap: 15px;
+}
+
+.announcement-container button {
+    background-color: rgb(8, 34, 8);
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 15px;
+}
+
+.announcement-container button:hover {
+    background-color: rgb(1, 74, 1);
+}
+
+.announcement-container span img{
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding: 5px;
+} 
+
+nav {
+    background-color: white;
+    padding: 15px;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.page-section {
+    max-width: 1215px;
+    margin: auto;
+}
+
+.page-section p {
+    opacity: 0.7;
+    font-size: 17px;
+}
+
+.header-bottom {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.culinary {
+    color: rgb(151, 10, 10);
+}
+
+.header-menu {
+    font-size: 30px;
+}
+
+.menu-list {
+    display: flex;
+    gap: 10px;
+}
+
+.menu-list p {
+   background-color: rgb(237, 222, 214);
+   padding: 7px 10px;
+   border-radius: 10px;
+}
+
+.menu-list p:hover {
+    background-color: rgb(198, 152, 152);
+}
+
+.menu-list a {
+    color: black;
+}
+
+.first-image-flex {
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: rgb(237, 222, 214);
+}
+
+.seasonal {
+    color: rgb(151, 10, 10);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.woodfire {
+    font-size: 25px;
+}
+
+.first-image-flex img {
+    width: 80px;
+    height: 70px;
+}
+
+.starters {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.start {
+    font-size: 30px;
+}
+
+.starter-div {
+    font-size: 20px;
+}
+
+.start span {
+    color: rgb(151, 10, 10);
+    font-size: 15px;
+}
+
+.chripsy-chicken {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    line-height: 35px;
+}
+
+.chripsy-flex {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mild-chef {
+    display: flex;
+    gap: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+}
+
+.chef-pick {
+    padding: 0px 5px;
+    border-radius: 3px;
+    background-color: rgb(236, 215, 215);
+}
+
+.mild-heat {
+    background-color: rgb(208, 117, 117);
+    padding: 0px 5px;
+    border-radius: 3px;
+}
+
+.grilled-chicken {
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.grilled-chicken-image {
+    background-image: url(asset/chhhhhhicken.jpg);
+    height: 220px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.house-sign {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: rgb(7, 33, 7);
+    color: white;
+    font-weight: bold;
+}
+
+.grilled-chicken-bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin: 10px 0px 7px 0px;
+    font-weight: bold;
+}
+
+.grilled-chicken-image-2 {
+    background-image: url(asset/a.jpg);
+    height: 220px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.house-sign-2 {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: rgb(110, 6, 6);
+    color: white;
+    font-weight: bold;
+}
+
+
+.garlic-pasta {
+    background-color: white;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.grilled-chicken-image-3 {
+    background-image: url(asset/searing-yellowtail-fish.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 220px;
+    position: relative;
+}
+
+.grid {
+    display: grid;
+    gap: 10px;
+}
+
+.grid-container-first {
+    background-color: white;
+    margin-top: 30px;
+    padding: 15px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+.grid-container {
+    background-color: white;
+    padding: 15px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+.grid-top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.passed {
+    background-color: rgb(244, 210, 17);
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.iconic-house {
+    background-color: rgb(176, 84, 84);
+    width: 130px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.stil-spark {
+    background-color: rgb(241, 232, 232);
+    width: 130px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.second-reserve {
+    max-width: 1215px;
+    margin: 120px auto 0px auto;
+    padding: 40px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgb(7, 79, 7);
+}
+
+.your-table {
+    font-size: 30px;
+    color: white;
+}
+
+.come-hungry {
+    opacity: 0.7;
+    color: white;
+    margin-top: 20px;
+}
+
+.arrow {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    padding: 16px 30px;
+    margin-top: 25px;
+}
+
+.arrow a{
+  color: black;
+}
+
+footer {
+    background-color: rgb(231, 222, 222);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+footer p {
+    opacity: 0.7;
+    line-height: 25px;
+}
+
+.footer-top {
+    margin-top: 20px;
+}
+
+.page-footer {
+    max-width: 1215px;
+    margin: auto auto 70px auto;
+}
+
+.footer-heads {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.date {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.reference {
+    margin-top: 25px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 990px) {
+        section {
+        padding: 0px 30px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+        section {
+        padding: 0px 30px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .bella-kitchen-button {
+        font-size: 20px;
+    }
+
+    .announcement-container-right button {
+        display: none;
+    }
+
+    .menu-table {
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    section {
+        padding: 0px 30px;
+    }
+
+    .footer-heads {
+        font-size: 13px;
+    }
+}

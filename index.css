@@ -1,0 +1,665 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section {
+    max-width: 1215px;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(244, 234, 234);
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-header {
+    background-color: rgb(231, 222, 222);
+    padding: 15px;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+}
+
+.announcement-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.announcement-container-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.bella-logo img{
+    width: 150px;
+    height: 40px;
+}
+
+.bella-kitchen-button {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.announcement-container-right{
+    display: flex;
+    align-self: center;
+    gap: 15px;
+}
+
+.announcement-container button  {
+    background-color: rgb(8, 34, 8);
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 12px 15px;
+}
+
+.announcement-container button a {
+    color: white;
+}
+
+.announcement-container button:hover {
+    background-color: rgb(1, 74, 1);
+}
+
+.announcement-container span img{
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding: 5px;
+} 
+
+nav {
+    background-color: white;
+    padding: 15px;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.first-image {
+    background-image: url(asset/background-image.webp);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: white;
+    /* max-width: 1215px; */
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.first-image-words {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+}
+
+.first-image-text {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 280px;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.good-food {
+    font-size: 40px;
+}
+
+.great-moment {
+    font-size: 35px;
+    color: rgb(240, 185, 185);
+}
+
+.menu-table {
+    display: flex;
+    gap: 10px;
+}
+
+.menu-btn {
+    border: none;
+    background-color: rgb(15, 110, 15);
+    border-radius: 5px;
+    color: white;
+    padding: 0px 0px 0px 10px;
+    height: 45px;
+    width: 180px;
+    font-size: 18px;
+}
+
+.menu-btn a {
+    display: flex;
+    align-items: center;
+}
+
+.menu-btn:hover {
+    background-color: rgb(9, 60, 9);
+}
+
+.reserve-btn {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 0px 0px 0px 10px;
+    border-radius: 5px;
+    height: 45px;
+    width: 180px;
+    font-size: 18px;
+}
+
+.reserve-btn a {
+     display: flex;
+    align-items: center;
+}
+
+.menu-table a {
+    color: white;
+}
+
+.reserve-btn:hover {
+    background-color: rgb(113, 111, 111);
+}
+
+.menu-table img {
+    width: 20px;
+    height: 20px;
+}
+
+.first-image-words p {
+    margin: 15px 0px;
+}
+
+.second-image-section {
+    /* max-width: 1215px; */
+    /* margin: auto; */
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.the-bella-spirit {
+    color: rgb(142, 49, 49);
+    font-weight: bold;
+}
+
+.made-with-passion {
+    font-size: 30px;
+}
+
+.second-image {
+    background-image: url(asset/imgg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1215px;
+    margin: auto;
+    position: relative;
+    height: 230px;
+    margin-top: 20px;
+}
+
+.second-image div {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.second-image-bottom {
+    margin-top: 20px;
+}
+
+.second-image-first-bottom {
+    font-size: 17px;
+    opacity: 0.7;
+}
+
+.second-image-bottom p {
+    color: rgb(159, 10, 10);
+    font-size: 20px;
+    margin-top: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.second-image-section-bottom {
+    max-width: 1215px;
+    margin: 30px auto 0px auto;
+}
+
+.second-image-section-bottom-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-image-section-bottom-row-left {
+    font-size: 15px;
+    color: rgb(120, 120, 7);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.second-image-section-bottom-row-right {
+    font-size: 15px;
+}
+
+.our-signature {
+    font-size: 30px;
+}
+
+.our-signature-bottom {
+    opacity: 0.7;
+    margin-top: 5px;
+}
+
+.third-image-section {
+    max-width: 1215px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.herb-rice {
+    background-image: url(asset/unnamed.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 160px;
+    position: relative;
+}
+
+.chef-special {
+    position: absolute;
+    top: 10px;
+    color: white;
+    background-color: rgb(9, 75, 9);
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    right: 10px;
+}
+
+.third-image-section-bottom {
+    margin-top: 20px;
+}
+
+.third-image-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-image-bottom-left {
+    font-size: 30px;
+}
+
+.third-image-bottom-right {
+    color: rgb(201, 21, 21);
+    font-size: 20px;
+}
+
+.third-image-section-bottom p {
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+.pasta {
+    background-image: url(asset/pasta.jpg);
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.vegetarian {
+    position: absolute;
+    top: 10px;
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    right: 10px;
+}
+
+.pan-seared {
+    background-image: url(asset/aaaaaclassic-beafbuger.jpg);
+    background-size: cover;
+    height: 160px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.favorite {
+    position: absolute;
+    top: 10px;
+    color: black;
+    background-color: rgb(169, 98, 98);
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    right: 10px;
+}
+
+.classic-beaf {
+    background-image: url(asset/reee.jpg);
+    background-size: cover;
+    height: 160px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.seafood {
+    position: absolute;
+    top: 10px;
+    color: black;
+    background-color: rgb(163, 197, 163);
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    right: 10px;
+}
+
+.menu-button {
+    max-width: 1215px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.menu-button div{
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(231, 222, 222);
+    color: black;
+}
+
+.menu-button div:hover {
+    background-color: gray;
+}
+
+.the-difference {
+    background-color: rgb(231, 222, 222);
+    max-width: 1215px;
+    margin: 80px auto 0px auto;
+    padding: 25px 0px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.the-difference .first {
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+}
+
+.the-difference .second {
+    font-size: 28px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.the-difference .third {
+    opacity: 0.7;
+}
+
+.first-grid {
+    max-width: 1215px;
+    margin: 20px auto 0px auto;
+    display: grid;
+    gap: 10px;
+}
+
+.grid-flex {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.grid-image {
+    background-color: rgb(171, 215, 171);
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.grid-flex .fresh {
+    font-size: 26px;
+}
+
+.second-span {
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+.grid-image-2 {
+    background-color: rgb(184, 184, 29);
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.grid-image-3 {
+    background-color: rgb(195, 159, 165);
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.grid-image-4 {
+    background-color: rgb(30, 48, 30);
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.live-apro {
+    max-width: 1215px;
+    margin: 40px auto 0px auto;
+    background-color: rgb(231, 222, 222);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.music-tag {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.music-logo {
+    background-color: rgb(184, 184, 29);
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+
+.upcoming {
+    background-color: rgb(248, 247, 247);
+    color: rgb(82, 15, 15);
+    font-size: 13px;
+    height: 20px;
+    padding: 0px 10px;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+}
+
+.second-reserve {
+    max-width: 1215px;
+    margin: 120px auto 0px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgb(4, 39, 4);
+    line-height: 40px;
+}
+
+.your-table {
+    font-size: 30px;
+    color: white;
+}
+
+.come-hungry {
+    opacity: 0.7;
+    color: white;
+}
+
+.arrow {
+    background-color: rgb(161, 161, 1);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    padding: 13px 100px;
+}
+
+.arrow a {
+    color: black;
+}
+
+.arrow img {
+    position: absolute;
+    top: 10px;
+    left: 230px;
+}
+
+.instant {
+    color: white;
+    opacity: 0.7;
+}
+
+footer {
+    background-color: rgb(231, 222, 222);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+footer p {
+    opacity: 0.7;
+    line-height: 25px;
+}
+
+.footer-top {
+    margin-top: 20px;
+}
+
+.page-footer {
+    max-width: 1215px;
+    margin: auto auto 70px auto;
+}
+
+.footer-heads {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.date {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.reference {
+    margin-top: 25px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 990px) {
+        section {
+        padding: 0px 30px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    section {
+        padding: 0px 30px;
+    }
+}
+
+    .first-image-text {
+        font-size: 15px;
+        width: 210px;
+    }
+
+@media screen and (max-width: 510px) {
+    .bella-kitchen-button {
+        font-size: 20px;
+    }
+
+    .announcement-container-right button {
+        display: none;
+    }
+
+    .menu-table {
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    section {
+        padding: 0px 30px;
+    }
+
+    .third-image-bottom-left {
+        font-size: 20px;
+    }
+
+    .our-signature {
+    font-size: 20px;
+    }
+
+    .footer-heads {
+        font-size: 13px;
+    }
+}

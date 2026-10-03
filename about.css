@@ -1,0 +1,484 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(244, 234, 234);
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-header {
+    background-color: rgb(231, 222, 222);
+    padding: 15px;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+}
+
+.announcement-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.announcement-container-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.bella-logo img{
+    width: 150px;
+    height: 40px;
+}
+
+.bella-kitchen-button {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.announcement-container-right{
+    display: flex;
+    align-self: center;
+    gap: 15px;
+}
+
+.announcement-container button {
+    background-color: rgb(8, 34, 8);
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 15px;
+}
+
+.announcement-container button:hover {
+    background-color: rgb(1, 74, 1);
+}
+
+.announcement-container span img{
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding: 5px;
+} 
+
+.announcement-container button a {
+    color: white;
+}
+
+nav {
+    background-color: white;
+    padding: 15px;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.page-section {
+    max-width: 1215px;
+    margin: auto;
+}
+
+.page-section p {
+    opacity: 0.7;
+    font-size: 17px;
+}
+
+.header-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header-bottom-date {
+    background-color: rgb(235, 203, 203);
+    font-size: 20px;
+    color: rgb(159, 77, 77);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    /* width: 200px; */
+}
+
+.our-story {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.header-bottom p {
+    margin-top: 10px;
+}
+
+.line {
+    color: rgb(169, 169, 12);
+    font-size: 30px;
+}
+
+.first-image {
+    background-image: url(asset/firts.heed.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1215px;
+    margin: auto;
+    position: relative;
+    height: 270px;
+    margin-top: 20px;
+}
+
+.sub-first-image {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.sub-first-image p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.more-than-container {
+    background-color: rgb(231, 222, 222);
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.culinary-flex {
+    display: flex;
+    color: #8B1A10;
+    font-weight: bold;
+}
+
+.more-than-word {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+ .p-top {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.chef-okara-div-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(215, 201, 201);
+    gap: 10px;
+}
+
+.chef-okara-div-container img {
+    background-color: rgb(15, 70, 15);
+    padding:8px;
+    border-radius: 10px;
+}
+
+.chef-word {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.chef-okara-div-container p {
+    font-size: 16px;
+}
+
+.our-philosophy {
+    margin-top: 20px;
+}
+
+.our-philosophy-word {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.our-philosophy p {
+    margin-top: 8px;
+}
+
+.first-grid {
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.grid-flex {
+    display: flex;
+    gap: 20px;
+    background-color: rgb(224, 217, 217);
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.grid-image {
+    background-color: rgb(5, 39, 5);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.grid-flex .fresh {
+    font-size: 26px;
+}
+
+.second-span {
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+.grid-image-2 {
+    background-color: rgb(133, 45, 45);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.grid-image-3 {
+    background-color: rgb(168, 168, 32);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.rating-card {
+    background-color: rgb(12, 49, 12);
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.rating-card-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-card-top-left {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rating-flex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.rating-card-grid {
+    width: 380px;
+    background-color: brown;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.ten-card .card-top {
+    font-size: 30px;
+}
+
+.rating-card-bottom {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    gap: 10px;
+    width: 100%;
+}
+
+.image-grid img {
+    width: 100%;
+    border-radius: 10px;
+    height: 180px;
+    object-fit: cover;
+    object-position: 100%;
+}
+
+.second-reserve {
+    max-width: 1215px;
+    margin: 120px auto 0px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: gray;
+    line-height: 30px;
+}
+
+.reserve-background {
+    background-color: pink;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.your-table {
+    font-size: 30px;
+    color: white;
+}
+
+.come-hungry {
+    opacity: 0.7;
+    color: white;
+}
+
+.arrow {
+    background-color: rgb(6, 65, 6);
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    padding: 13px 100px;
+}
+
+.arrow a {
+   color: white;
+}
+
+.arrow img {
+    position: absolute;
+    top: 7.5px;
+    left: 220px;
+}
+
+.instant {
+    margin-top: 10px;
+    transition: ease-in 0.6s;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.instant a{
+    color: rgb(95, 32, 32);
+    opacity: 0.7;
+}
+
+.instant:hover {
+    background-color: red;
+}
+
+footer {
+    background-color: rgb(231, 222, 222);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+footer p {
+    opacity: 0.7;
+    line-height: 25px;
+}
+
+.footer-top {
+    margin-top: 20px;
+}
+
+.page-footer {
+    max-width: 1215px;
+    margin: auto auto 70px auto;
+}
+
+.footer-heads {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.date {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.reference {
+    margin-top: 25px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 990px) {
+        section {
+        padding: 0px 30px;
+    }
+
+    .rating-flex {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .rating-card-grid {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+        section {
+        padding: 0px 30px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .image-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .bella-kitchen-button {
+        font-size: 20px;
+    }
+
+    .announcement-container-right button {
+        display: none;
+    }
+
+    .menu-table {
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    section {
+        padding: 0px 30px;
+    }
+
+    .footer-heads {
+        font-size: 13px;
+}
+}

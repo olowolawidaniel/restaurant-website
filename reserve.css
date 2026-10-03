@@ -1,0 +1,444 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(244, 234, 234);
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-header {
+    background-color: rgb(231, 222, 222);
+    padding: 15px;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+}
+
+.announcement-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.announcement-container-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.bella-logo img{
+    width: 150px;
+    height: 40px;
+}
+
+.bella-kitchen-button {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.announcement-container-right{
+    display: flex;
+    align-self: center;
+    gap: 15px;
+}
+
+.announcement-container button  {
+    background-color: rgb(8, 34, 8);
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 12px 15px;
+}
+
+.announcement-container button a {
+    color: white;
+}
+
+.announcement-container button:hover {
+    background-color: rgb(1, 74, 1);
+}
+
+.announcement-container span img{
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding: 5px;
+} 
+
+nav {
+    background-color: white;
+    padding: 15px;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.page-section {
+    max-width: 1215px;
+    margin: auto;
+}
+
+.page-section p {
+    opacity: 0.7;
+    font-size: 17px;
+}
+
+.header-bottom {
+    display: flex;
+    color: #866f6d;
+    background-color: rgb(239, 172, 172);    
+    width: 240px;
+    margin: 20px 0px 10px 0px;
+    border-radius: 4px;
+}
+
+.let-get-started {
+    font-size: 35px;
+}
+
+.reserve-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.grid-container {
+    background-color: rgb(232, 219, 219);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.grid-container img {
+    background-color: rgb(211, 205, 205);
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.grid-container p {
+    font-size: 15px;
+}
+
+.reserve-form {
+    background-color: white;
+    border-radius: 10px;
+    /* box-shadow: rgb(218, 193, 193) 0px 60px; */
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.form-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reserve-a-table {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.form-top img {
+    background-color: rgb(204, 204, 220);
+    padding: 7px;
+    border-radius: 10px
+}
+
+.form-icons {
+    position: relative;
+    margin-top: 15px;
+}
+
+.form-icons img {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+input,
+select {
+    padding: 15px 29px;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    background-color: rgb(232, 219, 219);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.form-flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.form-flex .form-icons {
+    width: 50%;
+}
+
+.form-icons select {
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(232, 219, 219);
+    border: none;
+}
+
+.reserve-submit {
+    background-color: rgb(5, 58, 5);
+    width: 100px;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    margin-top: 10px;
+    padding: 15px 29px;
+}
+
+.reserve-submit:hover {
+    background-color: green;
+}
+
+.reserve-submit img {
+    position: absolute;
+    top: 12px;
+}
+
+.form-bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.reserve-direction {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-our {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.direction-flex {
+    display: flex;
+    align-items: center;
+    background-color: rgb(227, 217, 217);
+    font-size: 12px;
+    padding: 0px 10px;
+}
+
+.locaton-bella-kitchen {
+    background-color: rgb(227, 221, 221);
+    margin-top: 10px;
+    padding: 130px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.locaton-bella-kitchen-top-left {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    align-items: center;
+    color: white;
+    background-color: green;
+    width: 130px;
+    gap: 5px;
+}
+
+.locaton-bella-kitchen-top-right {
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    padding: 0px 10px;
+}
+
+.locaton-bella-kitchen-bottom-left {
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    padding: 0px 10px;
+}
+
+.adeolaa {
+    text-align: center;
+}
+
+.locaton-bella-kitchen-bottom-right {
+    background-color: white;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    padding: 0px 10px;
+}
+
+.locaton-bella-kitchen-center {
+    text-align: center;
+}
+
+
+.locaton-bella-kitchen-center img {
+    background-color: rgb(202, 94, 94);
+    animation-name: pindrop;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    padding: 10px;
+    border-radius: 10px;
+    outline: 5px solid rgb(202, 204, 202);
+}
+
+@keyframes pindrop {
+    0% {opacity: 1;}
+
+    50% {opacity: 0.6;}
+
+    100% {opacity: 0.3;}
+}
+
+.adeola-street {
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.reserve-complimentry {
+    display: flex;
+    gap: 10px;
+    background-color: rgb(227, 221, 221);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px 5px;
+}
+
+footer {
+    background-color: rgb(231, 222, 222);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+footer p {
+    opacity: 0.7;
+    line-height: 25px;
+}
+
+.footer-top {
+    margin-top: 20px;
+}
+
+.page-footer {
+    max-width: 1215px;
+    margin: auto auto 70px auto;
+}
+
+.footer-heads {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.date {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.reference {
+    margin-top: 25px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 760px) {
+    section {
+        padding: 0px 30px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .reserve-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .bella-kitchen-button {
+        font-size: 20px;
+    }
+
+    .announcement-container-right button {
+        display: none;
+    }
+    
+    .reserve-a-table {
+        font-size: 20px;
+    }
+
+    .form-top p {
+        font-size: 13px;
+    }
+
+    .form-flex {
+        display: block;
+        width: 100%;
+    }
+
+    .form-flex .form-icons {
+        width: 100%;
+    }
+
+    .reserve-complimentry {
+        font-size: 13px;
+    }
+
+    .footer-heads {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 461px) {
+    .find-our {
+        font-size: 20px;
+        font-weight: bold;
+}
+}
