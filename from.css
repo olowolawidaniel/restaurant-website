@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: #0f0f0f;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.form-container img{
+    background-color: #d4a64a;
+    width: 50px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.kitchen {
+    color: #d4a64a;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.create {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+p {
+    color: white;
+    margin-bottom: 10px;
+    opacity: 0.6;
+}
+
+label {
+    color: white;
+    margin-top: 10px;
+}
+
+input {
+    background-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+    outline: 1px solid #444444;
+    border-radius: 10px;
+    padding: 10px 8px;
+    width: 300px;
+    color: white;
+}
+
+input::placeholder {
+    color: rgb(142, 129, 129);
+}
+
+.account {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 5px;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+.account a{
+    color: black;
+    text-decoration: none;
+}
+
+.account:hover {
+    background-color: rgb(78, 78, 116);
+}
+
+.login {
+    text-align: center;
+    margin-top: 7px;
+}
+
+.login a {
+    color: gold;
+}
+
+@media screen and (max-width: 420px) {
+    .form-container {
+        padding: 15px;
+    }
+}
